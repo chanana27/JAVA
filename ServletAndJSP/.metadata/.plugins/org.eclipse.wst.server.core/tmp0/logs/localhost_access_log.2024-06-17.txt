@@ -1,0 +1,4 @@
+127.0.0.1 - - [17/Jun/2024:22:31:59 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:22:32:00 +0530] "GET /FirstApp/WEB-INF/classes/com/servlets/DemoServlet.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:22:32:41 +0530] "GET /FirstApp/test HTTP/1.1" 404 768
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:22:33:10 +0530] "GET /FirstApp/add HTTP/1.1" 200 -

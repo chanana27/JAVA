@@ -1,0 +1,11 @@
+import java.util.Hashtable;
+
+public class HashTableJava {
+
+	public static void main(String[] args) {
+		Hashtable ht = new Hashtable();
+		System.out.println(ht);
+		ht.put("asdf", "asdf");
+
+	}
+}

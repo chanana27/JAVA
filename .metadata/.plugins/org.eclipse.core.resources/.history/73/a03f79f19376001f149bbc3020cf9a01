@@ -1,0 +1,19 @@
+import java.util.WeakHashMap;
+
+public class WeakHashMapJava {
+
+	public static void main(String[] args) throws Exception {
+		
+		Integer i1 = 450;
+		
+		WeakHashMap hm = new WeakHashMap();
+		hm.put(i1, "Abhay");
+		
+		i1 = null;
+		System.gc();
+		System.out.println(hm);
+		
+	}
+}
+
+	

@@ -1,0 +1,16 @@
+import java.io.FileOutputStream;
+import java.util.Properties;
+
+public class PropertiesJava {
+
+	public static void main(String[] args) throws Exception{
+		Properties properties = new Properties();
+		properties.setProperty("URL","localhost:3306/mysql/jdbc");
+		properties.setProperty("Username", "root");
+		properties.setProperty("password", "Abhayroot");
+
+		FileOutputStream fos = new FileOutputStream("database.properties");
+		properties.store(fos, "got stored");
+	}
+
+}

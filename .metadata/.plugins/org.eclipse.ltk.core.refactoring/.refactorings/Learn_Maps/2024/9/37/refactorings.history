@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;LinkedHashMap&apos; to &apos;LinkedHashMapJava&apos;&#x0D;&#x0A;- Original project: &apos;Learn_Maps&apos;&#x0D;&#x0A;- Original element: &apos;LinkedHashMap&apos;&#x0D;&#x0A;- Renamed element: &apos;LinkedHashMapJava&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LinkedHashMap&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{LinkedHashMap.java[LinkedHashMap" matchStrategy="1" name="LinkedHashMapJava" qualified="false" references="true" similarDeclarations="false" stamp="1725812600220" textual="false" version="1.0"/>
+</session>

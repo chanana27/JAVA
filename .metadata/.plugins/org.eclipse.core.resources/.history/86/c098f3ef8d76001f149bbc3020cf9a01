@@ -1,0 +1,25 @@
+import java.util.WeakHashMap;
+
+public class WeakHashMapJava {
+
+	public static void main(String[] args) throws Exception {
+		
+		String i1 = "11";
+		Temp t = new Temp();
+		
+		WeakHashMap hm = new WeakHashMap();
+		hm.put(i1, "Abhay");
+		hm.put(t,"Chanana");
+		
+		i1 = null;
+		t = null;
+		System.gc();
+		System.out.println(hm);
+		
+	}
+
+}
+
+class Temp{
+	
+}

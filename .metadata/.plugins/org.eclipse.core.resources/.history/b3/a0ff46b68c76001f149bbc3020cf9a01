@@ -1,0 +1,19 @@
+
+public class GarbageCollectorAction  {
+
+	public static void main(String[] args)throws Exception {
+		
+		Employee e = new Employee();
+		e = null;
+		Thread.sleep(5000);
+		System.gc(); // Informing the JVM to active the garbage collector thread to clean the garbage object
+	}
+
+}
+
+class Employee{
+	@Override
+	public void finalize() {
+		System.out.println("Garbage Collector Cleaning");
+	}
+}

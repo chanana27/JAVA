@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Hospital_System_2/src/main/webapp/admin/nav-bar.jsp&apos; to &apos;navbar.jsp&apos;" description="Rename resource &apos;nav-bar.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/admin/nav-bar.jsp" name="navbar.jsp" stamp="1718884161544" updateReferences="true"/>
+</session>

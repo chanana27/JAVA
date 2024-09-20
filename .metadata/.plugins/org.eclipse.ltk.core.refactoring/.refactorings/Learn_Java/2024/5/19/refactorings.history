@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MutableStrings.java&apos; to &apos;LearnString/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Learn_Java&apos;&#x0D;&#x0A;- Destination element: &apos;LearnString/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;MutableStrings.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=LearnString/src&lt;" element1="/src&lt;{MutableStrings.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1715003474378" units="1" version="1.0"/>
+</session>

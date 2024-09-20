@@ -1,0 +1,17 @@
+import java.util.WeakHashMap;
+
+public class WeakHashMapJava {
+
+	public static void main(String[] args) {
+		
+		Integer i1 = 10;
+		
+		WeakHashMap hm = new WeakHashMap();
+		hm.put(i1, "Abhay");
+		
+		System.out.println(hm);
+		
+
+	}
+
+}

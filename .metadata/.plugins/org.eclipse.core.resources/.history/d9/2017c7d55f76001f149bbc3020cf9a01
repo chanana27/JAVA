@@ -1,0 +1,19 @@
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
+public class LinkedHashMapJava {
+	public static void main(String []args) {
+		LinkedHashMap lhm = new LinkedHashMap();
+		HashMap hm = new HashMap();
+		hm.put(1, "abhay");
+		hm.put(2, "chanana");
+		hm.put(3, "happy");
+		
+		lhm.putAll(hm);
+		lhm.put(4, "laptop");
+		lhm.put(5, "mouse");
+		
+		System.out.println(lhm);
+		
+	}
+}

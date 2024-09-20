@@ -1,0 +1,10 @@
+
+public class HashTable {
+
+	public static void main(String[] args) {
+		HashTable ht = new HashTable();
+		System.out.println(ht);
+
+	}
+
+}

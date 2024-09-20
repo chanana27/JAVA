@@ -1,0 +1,16 @@
+
+class Demo{
+	public String toString() {
+		return getClass().getName() + "@" + hashCode();
+	}
+}
+
+public class Testing {
+
+	public static void main(String[] args) {
+		
+		Demo d = new Demo();
+		System.out.println(d);
+	}
+
+}
